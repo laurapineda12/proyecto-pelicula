@@ -59,7 +59,7 @@ nav ul li a:hover{
 nav:nth-child(2){
   display: block;
   width: 1300px;
-  height: 500px;
+  height: 600px;
   background-color: black;
   overflow: hidden;
   position: absolute;
@@ -77,27 +77,175 @@ nav:nth-child(2) > *{
 }
 slide:nth-child(1){
   animation-delay: 1s;
-  background-image: url(../asset/38.jpg);
+  background-image: url(../asset/40.jpg);
   background-size: cover;
   background-position: center;
 }
 slide:nth-child(2){
-  animation-delay: 5s;
-  background-image: url(../asset/37.jpg);
+  animation-delay: 2s;
+  background-image: url(../asset/41.jpg);
   background-size: cover;
   background-position: center;
 }
 slide:nth-child(3){
-  animation-delay: 7s;
-  background-image: url(../asset/3.jpg);
+  animation-delay: 3s;
+  background-image: url(../asset/42.jpg);
   background-size: cover;
   background-position: center;
 }
+slide:nth-child(4){
+  animation-delay: 4s;
+  background-image: url(../asset/43.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(5){
+  animation-delay: 4s;
+  background-image: url(../asset/44.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(6){
+  animation-delay: 4s;
+  background-image: url(../asset/45.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(7){
+  animation-delay: 4s;
+  background-image: url(../asset/46.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(8){
+  animation-delay: 4s;
+  background-image: url(../asset/47.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(9){
+  animation-delay: 4s;
+  background-image: url(../asset/48.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(10){
+  animation-delay: 4s;
+  background-image: url(../asset/49.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(11){
+  animation-delay: 4s;
+  background-image: url(../asset/50.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(12){
+  animation-delay: 4s;
+  background-image: url(../asset/51.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(13){
+  animation-delay: 4s;
+  background-image: url(../asset/52.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(14){
+  animation-delay: 4s;
+  background-image: url(../asset/53.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(15){
+  animation-delay: 4s;
+  background-image: url(../asset/54.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(16){
+  animation-delay: 4s;
+  background-image: url(../asset/55.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(17){
+  animation-delay: 4s;
+  background-image: url(../asset/56.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(18){
+  animation-delay: 4s;
+  background-image: url(../asset/57.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(19){
+  animation-delay: 4s;
+  background-image: url(../asset/58.jpg);
+  background-size: cover;
+  background-position: center;
+}
+slide:nth-child(20){
+  animation-delay: 4s;
+  background-image: url(../asset/59.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @keyframes slide {
 0%{ left: 100%; width: 100%;}
-5%{ left: 0%; }
-25%{ left: 0%;}
+5%{ left: 100%;}
+25%{ left: -100%;}
 30%{ left: -100%; width: 100%;}
-30.0001%{ left: -100%; width: 0%;}
+30.0001%{ left: 100%; width: 0%;}
 100%{ left: 100%; width: 0%;}
+}
+section>article:nth-child(1){
+  position: absolute;
+  top: 920px;
+  left: 30px;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  border: solid 5px red;
+}
+section>article:nth-child(2){
+  position: absolute;
+  top: 920px;
+  left: 400px;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  border: solid 5px red;
+}
+section>article:nth-child(3){
+  position: absolute;
+  top: 920px;
+  left: 750px;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  border: solid 5px red;
+}
+section>article:nth-child(4){
+  position: absolute;
+  top: 920px;
+  left: 1100px;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  border: solid 5px red;
+}
+section>article:nth-child(5){
+  position: absolute;
+  top: 1400px;
+  left: 30px;
+  margin: 0 auto;
+  width: 300px;
+  height: 400px;
+  border: solid 5px red;
 }
