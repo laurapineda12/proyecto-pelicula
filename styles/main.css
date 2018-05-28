@@ -20,9 +20,9 @@ h4{
   text-align: center;
   font-family: 'IM Fell French Canon SC', serif;
   font-family: 'Handlee', cursive;
-  padding: 55px 30px 20px 30px;
+  padding: 35px 30px 20px 15px;
   color: red;
-  font-size: 120px;
+  font-size: 130px;
 
 }
 .eje3{
@@ -46,7 +46,7 @@ nav{
 nav ul li{
   display: inline-block;
 }
-a{
+.g{
   padding: 230px 0 10px 35px;
   display: inline-block;
   color: white;
@@ -586,11 +586,10 @@ footer>img:nth-child(4){
 }
 .e{
   position: absolute;
-  top: 800px;
+  top: 780px;
   left: 500px;
   color: red;
   font-family: 'IM Fell French Canon SC', serif;
-  font-family: 'Handlee', cursive;
 }
 .f>article:nth-child(1){
   position: absolute;
@@ -601,9 +600,10 @@ footer>img:nth-child(4){
   height: 300px;
   border: solid 5px grey;
 }
-.f>article>img{
+.f>article>a>img{
   width: 250px;
   height: 300px;
+
 }
 .f>article:nth-child(2){
   position: absolute;
