@@ -139,7 +139,7 @@ section>article>a>img{
   width: 250px;
   height: 300px;
 }
-section>article>.a1>img:nth-child(2){
+section>article>a:nth-child(2)>img{
   position: absolute;
   top: 950px;
   left: 400px;
