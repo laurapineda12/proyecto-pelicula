@@ -126,7 +126,7 @@ section{
 article{
   background-color: #DCDCDC;
 }
-section>article>a>img:nth-child(1){
+section>article:nth-child(1){
   position: absolute;
   top: 950px;
   left: 30px;
@@ -135,11 +135,11 @@ section>article>a>img:nth-child(1){
   height: 300px;
   border: solid 5px grey;
 }
-section>article>a>img{
+section>article>img{
   width: 250px;
   height: 300px;
 }
-section>article>a:nth-child(2)>img{
+section>article:nth-child(2){
   position: absolute;
   top: 950px;
   left: 400px;
@@ -148,7 +148,7 @@ section>article>a:nth-child(2)>img{
   height: 300px;
   border: solid 3px grey;
 }
-section>article>a>img:nth-child(3){
+section>article:nth-child(3){
   position: absolute;
   top: 950px;
   left: 750px;
@@ -157,7 +157,7 @@ section>article>a>img:nth-child(3){
   height: 300px;
   border: solid 3px grey;
 }
-section>article>a>img:nth-child(4){
+section>article:nth-child(4){
   position: absolute;
   top: 950px;
   left: 1100px;
@@ -166,7 +166,7 @@ section>article>a>img:nth-child(4){
   height: 300px;
   border: solid 3px grey;
 }
-section>article>a>img:nth-child(5){
+section>article:nth-child(5){
   position: absolute;
   top: 1300px;
   left: 30px;
@@ -175,7 +175,7 @@ section>article>a>img:nth-child(5){
   height: 300px;
   border: solid 3px grey;
 }
-section>article>a>img:nth-child(6){
+section>article:nth-child(6){
   position: absolute;
   top: 1300px;
   left: 400px;
@@ -184,7 +184,7 @@ section>article>a>img:nth-child(6){
   height: 300px;
   border: solid 3px grey;
 }
-section>article>a>img:nth-child(7){
+section>article:nth-child(7){
   position: absolute;
   top: 1300px;
   left: 750px;
@@ -193,7 +193,7 @@ section>article>a>img:nth-child(7){
   height: 300px;
   border: solid 3px grey;
 }
-section>article>a>img:nth-child(8){
+section>article:nth-child(8){
   position: absolute;
   top: 1300px;
   left: 1100px;
@@ -750,5 +750,86 @@ video{
   position: absolute;
   top: 260px;
   left: 600px;
+  font-family: 'Markazi Text', serif;
+}
+.d1{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Markazi Text', serif;
+}
+.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9{
+  position: absolute;
+  top: 500px;
+  left: 550px;
+  font-size: 30px;
+  color: white;
+  font-family: 'Markazi Text', serif;
+}
+.d3{
+  position: absolute;
+  left: 850px;
+}
+.d4{
+  position: absolute;
+  top: 550px;
+}
+.d4{
+  position: absolute;
+  top: 550px;
+}
+.d5,.d6{
+  position: absolute;
+  top: 550px;
+  left: 750px;
+}
+.d6{
+  position: absolute;
+  left: 1000px;
+}
+.d7{
+  position: absolute;
+  left: 550px;
+  top: 630px;
+}
+.d8,.d9,.d10,.d11,.d12{
+  position: absolute;
+  left: 680px;
+  font-size: 23px;
+  color: grey;
+  top: 505px;
+}
+.d9{
+  position: absolute;
+  left: 930px;
+}
+.d10{
+  position: absolute;
+  left: 630px;
+  top: 555px;
+}
+.d11{
+  position: absolute;
+  left: 880px;
+  top: 555px;
+}
+.d12{
+  position: absolute;
+  left: 1100px;
+  top: 555px;
+}
+.descripcion>.d13{
+  position: absolute;
+  top: 700px;
+  left: 550px;
+  width: 650px;
+  height: 250px;
+  background-color: black;
+}
+.descripcion>.d13>p{
+  font-size: 25px;
+  color: grey;
   font-family: 'Markazi Text', serif;
 }
